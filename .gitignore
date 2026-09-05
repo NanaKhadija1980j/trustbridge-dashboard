@@ -8,9 +8,6 @@
 
 # testing
 /coverage
-/test-results/
-/playwright-report/
-/playwright/.cache/
 
 # next.js
 /.next/
@@ -38,3 +35,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local scratch / issue drafts
+issues*.md
+push_issues.sh
+playwright-report/
+test-results/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
