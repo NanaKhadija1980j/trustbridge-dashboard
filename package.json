@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "npm run prisma:generate && node scripts/next-build.mjs",
+    "dev": "node init && next dev",
+    "build": "node init && npm run prisma:generate && node scripts/next-build.mjs",
     "vercel-build": "npm run db:deploy && npm run build",
-    "start": "next start",
+    "start": "node init && next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
